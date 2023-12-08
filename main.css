@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(51, 51, 51);
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header img {
+    max-width: 25%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: white;
+}
+
+form input {
+    font-size: 24px;
+    background-color: grey;
+    color: black;
+    border-color: black;
+}
+
+form button {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    margin: 16px;
+}
+
+table th {
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 9px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(0, 0, 0,)
+}
+
+
