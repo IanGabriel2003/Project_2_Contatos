@@ -65,10 +65,12 @@ form input {
 }
 
 input::placeholder {
+    font-family: 'Rethink Sans', sans-serif;
     color: white;
 }
 
 form button {
+    font-family: 'Rethink Sans', sans-serif;
     border-radius: 25px;
     width: 200px;
     height: 45px;
@@ -86,6 +88,7 @@ form button {
 }
 
 .tabela {
+    font-family: 'Rethink Sans', sans-serif;
     background-color: #333333;
     margin-top: 100px;
     border-radius: 25px;
