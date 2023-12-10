@@ -26,7 +26,6 @@ function adicionaLinha() {
             alert(`O nome ${telefone.value} já foi inserido`)
         } else {
         nomes.push(nome.value)
-        sobrenomes.push(sobrenome.value)
         emails.push(emails.value)
         telefones.push(parseFloat(telefones.value))
 
@@ -37,7 +36,8 @@ function adicionaLinha() {
         linha += `<td>${telefone.value}</td>`
         linha += '<tr>'
 
-        linha += linha
+        linhas += linha
+    }
 
     nome.value = ''
     sobrenome.value =  ''

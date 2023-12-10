@@ -96,14 +96,13 @@ table {
 
 table tr {
     color: #757575;
-    padding: 16px;
+    padding: 8px;
     font-size: 24px;
     display: flex;
     justify-content: space-around;
 }
 
 table td {
-    padding: 9px;
     font-size: 18px;
     display: flex;
     justify-content: space-around;
