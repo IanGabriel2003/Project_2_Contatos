@@ -16,7 +16,10 @@ body {
     background-color: #333333;
 }
 
-.container h1 {
+h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     margin: 32px;
     height: 65px;
