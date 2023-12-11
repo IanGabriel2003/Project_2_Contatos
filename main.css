@@ -102,17 +102,15 @@ table {
 
 table tr {
     color: #757575;
-    padding: 8px;
     font-size: 24px;
-    display: flex;
     justify-content: space-around;
 }
 
 table td {
+    padding: 16px;
     font-size: 18px;
-    display: flex;
     justify-content: space-around;
-    
+    text-align:center
 }
 
 .rodape {
